@@ -12,4 +12,8 @@ class MyController extends Controller
         $students = ['aqsa','wahaj','asim','hassan'];
         return view('student',compact('students'));
     }
+    public function insertData(){
+
+        
+    }
 }

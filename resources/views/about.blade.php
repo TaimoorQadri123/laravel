@@ -44,9 +44,9 @@
             <tr>
                 <td scope="row">{{'14'}}</td>
                 <td>{{'x'}}</td>
-                <td>{{'$i'}}</td>
+                <td>{{$i}}</td>
                 <td>{{'='}}</td>
-                <td>{{'$i*14'}}</td>
+                <td>{{$i*14}}</td>
 
             </tr>
             @endfor

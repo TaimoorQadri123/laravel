@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\http\Controllers\MyController;
+use App\http\Controllers\MyController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -19,3 +19,8 @@ Route::get('contact', function () {
     return view('contact');
 });
 Route::get('std',[MyController::class,'selectStudents']);
+
+Route::get('insert', function () {
+    return view('insert');
+});
+Route::post('insert',[MyController::class,'insertData']);
