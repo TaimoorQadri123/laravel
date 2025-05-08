@@ -24,3 +24,5 @@ Route::get('insert', function () {
     return view('insert');
 });
 Route::post('insert',[MyController::class,'insertData']);
+
+Route::get('select',[MyController::class,'selectData']);

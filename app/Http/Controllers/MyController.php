@@ -33,6 +33,11 @@ class MyController extends Controller
 
         
     }
+    public function selectData(){
+        $allStudents = new Student();
+        $allStudentsRecords = $allStudents::all();
+        return view('select', compact('allStudentsRecords'));
+    }
 }
 
 
