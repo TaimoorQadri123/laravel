@@ -16,7 +16,7 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Emai</th>
+                    <th>Email</th>
                     <th>Password</th>
                     <th>Action</th>
                     <th>Action</th>

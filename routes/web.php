@@ -26,3 +26,6 @@ Route::get('insert', function () {
 Route::post('insert',[MyController::class,'insertData']);
 
 Route::get('select',[MyController::class,'selectData']);
+
+Route::get('edit/{id}',[MyController::class,'editData']);
+

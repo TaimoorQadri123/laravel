@@ -38,6 +38,11 @@ class MyController extends Controller
         $allStudentsRecords = $allStudents::all();
         return view('select', compact('allStudentsRecords'));
     }
+    public function editData($id){
+        $student = new Student();
+        $studentRecord = Student::find($id);
+        return view('edit',compact('studentRecord'));
+    }
 }
 
 
