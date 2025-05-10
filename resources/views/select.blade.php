@@ -11,7 +11,8 @@
   </head>
   <body>
       
-    <div class="container">
+    <div class="container p-5">
+      <a href="insert" class="btn btn-info">Add</a>
         <table class="table">
             <thead>
                 <tr>
